@@ -1,0 +1,8 @@
+> library(readxl)
+> data3 <- read_excel("C:/Users/Admin/Downloads/data3.xltx")
+> View(data3)
+> yogalakshmi<-read_excel("C:/Users/Admin/Downloads/data3.xltx")
+> mean(yogalakshmi$max_price)
+[1] 2821.429
+> sd(yogalakshmi$modal_price)
+[1] 729.0292
